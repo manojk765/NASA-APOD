@@ -1,0 +1,60 @@
+body{ 
+    color: white;
+} 
+
+#bg-img { 
+    z-index: -5; 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+} 
+
+#head{
+    font-family: 'Dancing Script', cursive;
+    font-size: 8vh;
+}
+
+.text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vh;
+}
+
+input{
+    height: 5vh;
+    width: 30vh;
+    border-radius: 5px;
+    font-size: 3vh;
+    margin: 10px;
+}
+
+#img{
+    height: 30vh;
+    width: 50vh;
+    border: 10px;
+}
+
+#content{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #040D12;
+    font-family: 'Asap', sans-serif;
+    font-size: 3vh;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;   
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:650px){
+    #content{
+        display: inline;
+        border: none;
+    }
+} 
